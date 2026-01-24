@@ -14,6 +14,18 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
+    .hero {
+  background-image: url("image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 300px;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+
 }
 
 /* Navigation */
