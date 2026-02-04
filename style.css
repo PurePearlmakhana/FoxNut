@@ -10,7 +10,7 @@ body {
 
 /* Header */
 header {
-    background-color: #7a9b4e;
+  /*  background-color: #7a9b4e;
     color: white;
     text-align: center;
     padding: 20px;
@@ -23,7 +23,22 @@ header {
   height: 300px;
   color: white;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 60px; 
+} */
+.hero {
+  background:
+    linear-gradient(rgba(60, 120, 60, 0.6), rgba(60, 120, 60, 0.6)),
+    url("image.jpg");
+
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 }
