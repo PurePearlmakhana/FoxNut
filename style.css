@@ -14,7 +14,7 @@ header {
 .hero {
   background:
     linear-gradient(rgba(60, 120, 60, 0.6), rgba(60, 120, 60, 0.6)),
-    url("FoxNut/image.png");
+    url("image.png");
 
   background-size: cover;
   background-position: center;
