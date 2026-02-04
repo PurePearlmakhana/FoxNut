@@ -15,7 +15,7 @@ header {
     text-align: center;
     padding: 20px;
     .hero {
-  background-image: url("FoxNut/image.jpg");
+  background-image: url("FoxNut/image.jpg/header");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@ header {
 .hero {
   background:
     linear-gradient(rgba(60, 120, 60, 0.6), rgba(60, 120, 60, 0.6)),
-    url("FoxNut/image.jpg");
+    url("FoxNut/image.jpg/header");
 
   background-size: cover;
   background-position: center;
