@@ -12,24 +12,7 @@ body {
 
 .hero {
     background-image: url("./image/header.png");
-    height: 320px;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color: #2f5f2f;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-.hero h1 {
-    font-size: 42px;
-    margin: 0;
-}
-
-.hero p {
-    font-size: 18px;
-    margin-top: 8px;
 }
 
 
