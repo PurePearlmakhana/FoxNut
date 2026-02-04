@@ -11,7 +11,7 @@ body {
 /* Header */
 
 .hero {
-    background-image: url("./images/header.png");
+    background-image: url("./image/header.png");
     height: 320px;
     background-size: cover;
     background-position: center;
