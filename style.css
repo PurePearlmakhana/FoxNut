@@ -10,11 +10,11 @@ body {
 
 /* Header */
 header {
-  /*  background-color: #7a9b4e;
+   background-color: #7a9b4e;
     color: white;
     text-align: center;
     padding: 20px;
-    .hero {
+   /* .hero {
   background-image: url("FoxNut/image.jpg/header");
   background-size: cover;
   background-position: center;
@@ -28,7 +28,7 @@ header {
 .hero {
   background:
     linear-gradient(rgba(60, 120, 60, 0.6), rgba(60, 120, 60, 0.6)),
-    url("FoxNut/image.jpg/header");
+    url("FoxNut/image.jpg");
 
   background-size: cover;
   background-position: center;
