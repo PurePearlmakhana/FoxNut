@@ -14,7 +14,7 @@ header {
 .hero {
   background:
     linear-gradient(rgba(60, 120, 60, 0.6), rgba(60, 120, 60, 0.6)),
-    url("image.png");
+    url("header.png");
 
   background-size: cover;
   background-position: center;
