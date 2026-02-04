@@ -20,11 +20,11 @@ body {
   background-position: center;
   height: 300px;
 
-  color: red;
+/*  color: red;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
 }
 
 
