@@ -33,41 +33,132 @@ body {
   background-color: #eaf5ea;    /* optional: fills empty space */
 }
 
-
-
-
-
-
-/* Navigation */
-nav {
-    background-color: #4f6f2f;
-    text-align: center;
-    padding: 10px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav a {
-    color: white;
-    margin: 15px;
-    text-decoration: none;
-    font-weight: bold;
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2f7d32;
 }
 
-nav a:hover {
-    text-decoration: underline;
+.menu {
+  display: flex;
+  gap: 25px;
+  list-style: none;
 }
 
-/* Sections */
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #2f7d32;
+}
+
+/* HERO CONTENT */
+.hero-content {
+  margin-top: 120px;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: #1b5e20;
+}
+
+.hero-content p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 12px 26px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+.primary {
+  background: #2f7d32;
+  color: #fff;
+}
+
+.secondary {
+  border: 2px solid #2f7d32;
+  color: #2f7d32;
+}
+
+/* SECTIONS */
 section {
-    padding: 20px;
-    margin: 15px;
-    background-color: white;
-    border-radius: 8px;
+  padding: 70px 10%;
+  text-align: center;
 }
 
-/* Footer */
-footer {
-    background-color: #4f6f2f;
-    color: white;
-    text-align: center;
-    padding: 10px;
+section h2 {
+  font-size: 32px;
+  color: #1b5e20;
+  margin-bottom: 20px;
 }
+
+/* BENEFITS */
+.benefit-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
+/* PRODUCTS */
+.product-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  width: 260px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+.footer {
+  background: #2f7d32;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+}
+
+
+
+
+
+
