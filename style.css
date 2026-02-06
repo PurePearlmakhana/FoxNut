@@ -24,14 +24,14 @@ body {
   background-repeat: no-repeat;
 }
 
-
-
-  .navbar {
+.navbar {
   height: 70px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  position: relative;
 }
+
+
 
 
 
