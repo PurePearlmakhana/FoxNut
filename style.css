@@ -1,10 +1,5 @@
 (Create a file named style.css)
-
-
-
 /* Header */
-
-
 /* RESET */
 * {
   margin: 0;
@@ -29,17 +24,18 @@ body {
   background-repeat: no-repeat;
 }
   
-  
-  
-  
- 
 /* NAVBAR */
 .navbar {
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  padding: 0 8%;
+  background: rgba(255, 255, 255, 0.85);
 }
 
+/* LOGO */
 .logo {
   font-size: 28px;
   font-weight: 700;
@@ -47,6 +43,7 @@ body {
   letter-spacing: 1px;
 }
 
+/* MENU */
 .menu {
   list-style: none;
   display: flex;
@@ -63,6 +60,10 @@ body {
 .menu a:hover {
   color: #2f7d32;
 }
+  
+  
+  
+ 
 
 /* =========================
    HOME / ABOUT SECTION
