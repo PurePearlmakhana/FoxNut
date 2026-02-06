@@ -43,13 +43,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Sections */
-section {
-    padding: 20px;
-    margin: 15px;
-    background-color: white;
-    border-radius: 8px;
-}
 
 /* Footer */
 footer {
