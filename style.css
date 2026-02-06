@@ -25,7 +25,6 @@ body {
 }
 
 
-/* NAVBAR */
 .navbar {
   height: 70px;
   width: 100%;
@@ -36,7 +35,7 @@ body {
 
   padding: 0 8%;
   background: #ffffff;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 /* LOGO */
@@ -61,8 +60,7 @@ body {
 
 .menu a:hover {
   color: #2f7d32;
-
-
+}
 
 /* Footer */
 footer {
