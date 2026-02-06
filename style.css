@@ -4,22 +4,7 @@
 
 /* Header */
 
-.hero {
-  background-image: url("./images/header2.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 
-  height: 500px;
-
-     display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-
-  color: white;
-  background-color: #eaf5ea;    /* optional: fills empty space */
-}
 /* RESET */
 * {
   margin: 0;
@@ -37,9 +22,25 @@ body {
    HERO / HEADER
 ========================= */
 .hero {
-  min-height: 70vh;
-  background: linear-gradient(135deg, #e6fbe6, #ffffff);
+  height: 500px;
+  background:
+    linear-gradient(
+      rgba(230, 251, 230, 0.6),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("./images/header2.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
   padding: 20px 8%;
+  color: #1b5e20;
 }
 
 /* NAVBAR */
