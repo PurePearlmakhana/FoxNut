@@ -45,22 +45,20 @@ body {
   color: #2f7d32;
 }
 
-/* MENU */
+* MENU */
 .menu {
   list-style: none;
   display: flex;
-  gap: 26px;
+  gap: 28px;
 }
 
 .menu a {
   text-decoration: none;
-  color: #333;
+  color: white;
   font-weight: 500;
 }
 
-.menu a:hover {
-  color: #2f7d32;
-}
+
 
 /* Footer */
 footer {
