@@ -27,10 +27,12 @@ body {
 .navbar {
   height: 70px;
   display: flex;
+  justify-content: center;   /* 👈 key line */
   align-items: center;
-  position: relative;
-}
 
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
 
 
 
