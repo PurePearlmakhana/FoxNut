@@ -21,28 +21,18 @@ body {
 /* =========================
    HERO / HEADER
 ========================= */
-.hero {
+ .hero {
   height: 500px;
-  background:
-    linear-gradient(
-      rgba(230, 251, 230, 0.6),
-      rgba(255, 255, 255, 0.8)
-    ),
-    url("./images/header2.png");
-
+  background-image: url("./images/header2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-
-  padding: 20px 8%;
-  color: #1b5e20;
 }
-
+  
+  
+  
+  
+ 
 /* NAVBAR */
 .navbar {
   display: flex;
