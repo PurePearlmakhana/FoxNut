@@ -73,33 +73,6 @@ footer {
     padding: 10px;
 }
 
-
-
-/* LOGO */
-.logo {
-  font-size: 28px;
-  font-weight: 700;
-  color: #2f7d32;
-  letter-spacing: 1px;
-}
-
-/* MENU */
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 26px;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.menu a:hover {
-  color: #2f7d32;
-}
   
   
   
