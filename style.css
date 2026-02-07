@@ -51,6 +51,13 @@ body {
   font-weight: 600;
 }
 
+/* Footer */
+footer {
+    background-color: #4f6f2f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
 
 
   
