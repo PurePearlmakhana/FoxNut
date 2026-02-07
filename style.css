@@ -23,33 +23,24 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .navbar {
   height: 70px;
+  width: 100%;
+
   display: flex;
-  justify-content: center;   /* 👈 key line */
+  justify-content: center;   /* 🔥 THIS is missing */
   align-items: center;
 
   background: #ffffff;
   border-bottom: 1px solid #e5e5e5;
 }
 
-
-
-
-
-* MENU */
 .menu {
   list-style: none;
   display: flex;
-  gap: 28px;
-}
-
-.menu a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-  font-weight: 500;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
 }
 
 
