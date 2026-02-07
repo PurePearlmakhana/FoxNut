@@ -25,29 +25,16 @@ body {
 }
 /* NAVBAR */
 .navbar {
-  height: 70px;
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background: #ffffff;
-  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
 }
 
-/* MENU — IMPORTANT RESET */
 .menu {
+  display: inline-flex;
   list-style: none;
-
-  display: flex;
   gap: 30px;
-
-  margin: 0;          /* 🔥 THIS fixes centering */
-  padding: 0;         /* 🔥 THIS fixes centering */
+  margin: 0;
+  padding: 0;
 }
-
-
 
 
 /* Footer */
