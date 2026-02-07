@@ -28,7 +28,7 @@ body {
 /* NAVBAR */
 
 .navbar {
-  position: absolute;
+ 
   bottom: 15px;   /* move menu slightly up from bottom */
   width: 100%;
   text-align: center;
