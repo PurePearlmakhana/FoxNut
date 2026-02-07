@@ -25,7 +25,7 @@ body {
 }
 /* NAVBAR */
 navbar {
-  position: absolute;
+  position: center;
   bottom: 15px;   /* move menu slightly up from bottom */
   width: 100%;
   text-align: center;
