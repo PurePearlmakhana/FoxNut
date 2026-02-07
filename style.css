@@ -23,25 +23,30 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+/* NAVBAR */
 .navbar {
   height: 70px;
   width: 100%;
 
   display: flex;
-  justify-content: center;   /* 🔥 THIS is missing */
+  justify-content: center;
   align-items: center;
 
   background: #ffffff;
   border-bottom: 1px solid #e5e5e5;
 }
 
+/* MENU — IMPORTANT RESET */
 .menu {
   list-style: none;
+
   display: flex;
   gap: 30px;
-  padding: 0;
-  margin: 0;
+
+  margin: 0;          /* 🔥 THIS fixes centering */
+  padding: 0;         /* 🔥 THIS fixes centering */
 }
+
 
 
 
