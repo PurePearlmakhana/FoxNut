@@ -28,7 +28,7 @@ body {
 /* NAVBAR */
 
 .navbar {
- 
+  position: absolute;
   bottom: 15px;   /* move menu slightly up from bottom */
   width: 100%;
   text-align: center;
@@ -52,13 +52,6 @@ body {
 }
 
 
-/* Footer */
-footer {
-    background-color: #4f6f2f;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
 
   
   
