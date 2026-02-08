@@ -25,19 +25,20 @@ body {
  
    
 }
-
-/* NAVBAR CONTAINER */
+/* =========================
+   NAVIGATION BAR
+========================= */
 .navbar {
   width: 100%;
   background-color: #ffffff;
   border-bottom: 1px solid #e0e0e0;
 }
 
-/* MENU LIST */
+/* CENTER MENU */
 .menu {
   list-style: none;
   display: flex;
-  justify-content: center;   /* CENTER ITEMS */
+  justify-content: center;   /* 🔥 CENTERED */
   align-items: center;
   gap: 40px;
 
@@ -51,13 +52,25 @@ body {
   color: #2e6b2e;
   font-size: 16px;
   font-weight: 600;
-  padding: 5px 0;
+  padding-bottom: 5px;
 }
 
-/* HOVER EFFECT */
-.menu li a:hover {
+/* HOVER & ACTIVE */
+.menu li a:hover,
+.menu li a.active {
   color: #4caf50;
   border-bottom: 2px solid #4caf50;
 }
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
 
 
