@@ -28,6 +28,37 @@ body {
 
 /* NAVBAR */
 .navbar {
+  width: 100%;
+  background-color: #f9fff9;
+  display: flex;
+  justify-content: center;   /* 🔥 force center */
+}
+
+/* MENU */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+
+  padding: 10px 0;
+  margin: 0;
+
+  width: fit-content;        /* 🔥 key line */
+}
+
+/* MENU ITEMS */
+.menu li {
+  display: inline-block;
+}
+
+/* LINKS */
+.menu li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2f6b2f;
+}
+
   background: #f9fff9;
   padding: 12px 0;
 }
