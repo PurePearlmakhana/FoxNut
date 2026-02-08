@@ -34,58 +34,6 @@ body {
   justify-content: center;   /* 🔥 force center */
 }
 
-/* MENU */
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 25px;
-  padding: 10px 0;
-  margin: 0;
-  width: fit-content;        /* 🔥 key line */
-}
-
-/* MENU ITEMS */
-.menu li {
-  display: inline-block;
-}
-
-/* LINKS */
-.menu li a {
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 600;
-  color: #2f6b2f;
-}
-
-  background: #f9fff9;
-  padding: 12px 0;
-}
-
-/* MENU */
-.menu {
-  list-style: none;
-  display: flex;
-  justify-content: center;   /* ⭐ THIS CENTERS IT */
-  align-items: center;
-  gap: 25px;
-
-  padding: 0;
-  margin: 0 auto;            /* ⭐ IMPORTANT */
-}
-
-/* LINKS */
-.menu li a {
-  text-decoration: none;
-  color: #2f6b2f;
-  font-weight: 600;
-  font-size: 16px;
-}
-
-.menu li a:hover {
-  color: #1f4d1f;
-}
-
-
 
 /* Footer */
 footer {
