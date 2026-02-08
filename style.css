@@ -33,6 +33,17 @@ body {
   display: flex;
   justify-content: center;   /* 🔥 force center */
 }
+
+/* CENTER MENU */
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;   /* 🔥 CENTER HORIZONTALLY */
+  align-items: center;
+  gap: 40px;
+  padding: 15px 0;
+  margin: 0;
+}
 .menu li a {
   text-decoration: none;
   color: #2e6b2e;
