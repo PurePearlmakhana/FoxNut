@@ -29,12 +29,9 @@ body {
 /* NAVBAR */
 .navbar {
   width: 100%;
-  background-color: #f9fff9;
-  display: flex;
-  justify-content: center;   /* 🔥 force center */
+  background: #f9fff9; 
 }
 
-/* CENTER MENU */
 .menu {
   list-style: none;
   display: flex;
