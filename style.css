@@ -69,6 +69,92 @@ body {
   .menu {
     flex-direction: column;
     gap: 15px;
+
+
+    /* =========================
+   HEALTH BENEFITS SECTION
+========================= */
+.health-section {
+  padding: 70px 20px 90px;
+  text-align: center;
+}
+
+.health-section h2 {
+  font-size: 36px;
+  color: #1b5e20;
+  margin-bottom: 10px;
+}
+
+.health-section .subtitle {
+  font-size: 18px;
+  color: #555;
+  max-width: 720px;
+  margin: 0 auto 50px;
+}
+
+/* GRID */
+.health-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+/* CARD */
+.health-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+  text-align: left;
+  box-shadow: 0 10px 25px rgba(0, 100, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.health-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 35px rgba(0, 100, 0, 0.15);
+}
+
+.health-card h3 {
+  font-size: 20px;
+  color: #1b5e20;
+  margin-bottom: 12px;
+}
+
+.health-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+  background: #4b7728;
+  color: #fff;
+  text-align: center;
+  padding: 18px;
+  font-size: 15px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 600px) {
+  .menu {
+    gap: 18px;
+  }
+
+  .health-section h2 {
+    font-size: 28px;
+  }
+
+  .health-card {
+    padding: 24px;
+  }
+}
   }
 }
 
