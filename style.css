@@ -71,34 +71,78 @@ body {
     gap: 15px;
 
 
+/* ABOUT SECTION */
 .about-leanmakh {
   max-width: 900px;
-  margin: 80px auto;
+  margin: 100px auto 80px;
   padding: 0 20px;
   text-align: center;
 }
 
 .about-leanmakh h2 {
-  font-size: 36px;
+  font-size: 48px;
+  letter-spacing: 3px;
+  margin-bottom: 6px;
   color: #1b5e20;
-  margin-bottom: 5px;
+}
+
+.about-leanmakh h2 span {
+  color: #66bb6a; /* highlight */
 }
 
 .about-leanmakh .tagline {
-  font-size: 16px;
-  color: #4f772d;
+  font-size: 17px;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  color: #4f772d;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
-.about-leanmakh p {
-  font-size: 16px;
+.about-text {
+  font-size: 17px;
+  line-height: 1.9;
   color: #444;
-  line-height: 1.8;
-  margin-bottom: 20px;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
+/* WHY CHOOSE */
+.why {
+  background: linear-gradient(135deg, #eef8ee, #f6fff6);
+  padding: 90px 20px;
+  text-align: center;
+}
 
+.why h2 {
+  font-size: 34px;
+  color: #1b5e20;
+  margin-bottom: 50px;
+}
 
- 
+/* CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 18px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #2e7d32;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* hover effect */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
