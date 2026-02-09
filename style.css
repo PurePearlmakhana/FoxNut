@@ -70,74 +70,35 @@ body {
     flex-direction: column;
     gap: 15px;
 
-/* HEALTH SECTION */
-.health-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 70px 20px;
+
+.about-leanmakh {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 20px;
   text-align: center;
 }
 
-.health-section h2 {
+.about-leanmakh h2 {
   font-size: 36px;
   color: #1b5e20;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
-.subtitle {
-  color: #555;
+.about-leanmakh .tagline {
   font-size: 16px;
-  margin-bottom: 50px;
+  color: #4f772d;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
 }
 
-/* GRID */
-.benefits-grid {
- .
-  display: grid !important;
-  grid-template-columns: repeat(2, 1fr) !important;
-  background: rgba(255, 0, 0, 0.05); /* debug */
-
-
+.about-leanmakh p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
 
-/* CARD */
-.benefit-card {
-  background: #ffffff;
-  padding: 30px;
-  border-radius: 14px;
-  text-align: left;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease;
-  width:100%;
-}
-
-.benefit-card:hover {
-  transform: translateY(-6px);
-}
-
-.benefit-card h3 {
-  color: #2e7d32;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.benefit-card p {
-  color: #555;
-  font-size: 15px;
-  line-height: 1.6;
-}
-
-/* FOOTER */
-footer {
-  background: #4f772d;
-  color: #ffffff;
-  text-align: center;
-  padding: 18px;
-  margin-top: 60px;
-  font-size: 14px;
-}
-
-  
 
 
  
