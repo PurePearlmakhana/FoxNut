@@ -22,6 +22,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+   
  
    
 }
@@ -71,78 +72,83 @@ body {
     gap: 15px;
 
 
-/* ABOUT SECTION */
-.about-leanmakh {
-  max-width: 900px;
-  margin: 100px auto 80px;
-  padding: 0 20px;
-  text-align: center;
+.home-section {
+  padding: 80px 8%;
 }
 
-.about-leanmakh h2 {
+.home-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* LEFT CONTENT */
+.home-content {
+  flex: 1;
+}
+
+.home-content h1 {
   font-size: 48px;
-  letter-spacing: 3px;
-  margin-bottom: 6px;
-  color: #1b5e20;
-}
-
-.about-leanmakh h2 span {
-  color: #66bb6a; /* highlight */
-}
-
-.about-leanmakh .tagline {
-  font-size: 17px;
-  font-weight: 600;
-  letter-spacing: 1.5px;
-  color: #4f772d;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-}
-
-.about-text {
-  font-size: 17px;
-  line-height: 1.9;
-  color: #444;
-  max-width: 750px;
-  margin: 0 auto;
-}
-
-/* WHY CHOOSE */
-.why {
-  background: linear-gradient(135deg, #eef8ee, #f6fff6);
-  padding: 90px 20px;
-  text-align: center;
-}
-
-.why h2 {
-  font-size: 34px;
-  color: #1b5e20;
-  margin-bottom: 50px;
-}
-
-/* CARDS */
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 30px;
-  max-width: 950px;
-  margin: 0 auto;
-}
-
-.card {
-  background: #ffffff;
-  padding: 30px 20px;
-  border-radius: 18px;
-  font-size: 17px;
-  font-weight: 600;
   color: #2e7d32;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
 }
 
-/* hover effect */
-.card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+.home-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #555;
 }
 
+/* FEATURES */
+.features {
+  display: flex;
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #e8f5e9;
+  padding: 12px 18px;
+  border-radius: 50px;
+}
+
+.feature span {
+  font-size: 22px;
+}
+
+.feature h4 {
+  font-size: 15px;
+  color: #2e7d32;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #2e7d32;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #256628;
+}
+
+/* RIGHT IMAGE */
+.home-image {
+  flex: 1;
+  position: relative;
+}
+
+.home-image img {
+  width: 100%;
+  border-radius: 60% 40% 55% 45%;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
