@@ -97,7 +97,7 @@ body {
 
 /* 🔥 IMAGE FIX */
 .intro-image img {
-  width: 280px;
+  width: 100px;
   height: auto;
   display: block;
   filter: drop-shadow(0 10px 20px rgba(0,0,0,0.15));
