@@ -75,25 +75,31 @@ body {
 .intro-section {
   display: flex;
   align-items: center;
-  gap: 40px;          /* ⬅ control spacing here */
-  padding: 60px 4%;
+  justify-content: space-between;
+  padding: 60px 8%;
+  width: 100%;
 }
 
+/* left text */
 .intro-content {
   flex: 1;
 }
 
+/* right image container */
 .intro-image {
   flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
+/* 🔥 IMAGE FIX */
 .intro-image img {
-  width: 240px;
+  width: 450px;        /* ⬅ increase this */
   height: auto;
+  max-width: none;    /* ⬅ VERY IMPORTANT */
+  display: block;
 }
-  
 
-}
 @media (max-width: 768px) {
   .intro-image img {
     width: 260px;
