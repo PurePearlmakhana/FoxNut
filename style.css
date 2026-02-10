@@ -70,71 +70,31 @@ body {
   .menu {
     flex-direction: column;
     gap: 15px;
-  }
-
- /* INTRO SECTION (below header) */
+  
+  
 .intro-section {
   display: flex;
+  flex-direction: row;        /* force left → right */
   align-items: center;
   justify-content: space-between;
   padding: 80px 8%;
   background: #f7fbf7;
-  gap: 40px;
 }
 
-/* LEFT TEXT */
+/* LEFT */
 .intro-content {
-  max-width: 520px;
+  width: 50%;
 }
 
-.welcome {
-  font-size: 14px;
-  letter-spacing: 2px;
-  color: #5c8f5c;
-  font-weight: 600;
-}
-
-.intro-content h1 {
-  font-size: 48px;
-  color: #2f5d50;
-  margin: 10px 0 20px;
-}
-
-.intro-content p {
-  font-size: 16px;
-  line-height: 1.7;
-  color: #555;
-}
-
-.features {
-  list-style: none;
-  padding: 0;
-  margin-top: 25px;
-}
-
-.features li {
-  margin-bottom: 10px;
-  color: #2f5d50;
-  font-size: 16px;
-}
-
-/* RIGHT IMAGE */
+/* RIGHT */
 .intro-image {
-  width: 420px;
-  height: 420px;
-  background: #3fa46a;
-  border-radius: 45% 55% 60% 40% / 55% 45% 55% 45%;
+  width: 45%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .intro-image img {
-  width: 80%;
+  width: 380px;
+  height: auto;
   border-radius: 50%;
-  background: #fff;
-  padding: 10px;
 }
-
-
-    
