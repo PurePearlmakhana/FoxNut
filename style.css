@@ -90,15 +90,15 @@ body {
 
 /* image forced right */
 .intro-image {
-  position: static;        /* 👈 removes overlap */
+  position: relative;        /* 👈 removes overlap */
   width: auto;
   height: auto;
-  max-width: 420px;
+  max-width: 20px;
   display: flex;
   justify-content: flex-end;
 }
 .intro-image img {
-  width: 180px;      /* 👈 smaller size */
+  width: 50px;      /* 👈 smaller size */
   height: auto;
   max-width: 100%;
   display: block;
