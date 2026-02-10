@@ -73,11 +73,14 @@ body {
   
   
 
-    .intro-section {
-  display: flex !important;
-  flex-direction: row !important;
+   .intro-section {
+  position: relative;      /* 👈 keeps it in flow */
+  display: flex;
   align-items: center;
-  padding: 80px 8%;
+  padding: 60px 8%;
+  width: 100%;
+  height: auto;            /* 👈 critical */
+  overflow: hidden;
 }
 
 /* text left */
@@ -87,8 +90,18 @@ body {
 
 /* image forced right */
 .intro-image {
+  position: static;        /* 👈 removes overlap */
+  width: auto;
+  height: auto;
+  max-width: 420px;
   display: flex;
   justify-content: flex-end;
+}
+.intro-image img {
+  display: block;
+  width: 260px;
+  height: auto;
+  max-width: 100%;
 }
 
   
