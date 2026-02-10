@@ -87,8 +87,9 @@ body {
 
 /* image forced right */
 .intro-image {
-  flex: 1;
   display: flex;
   justify-content: flex-end;
 }
+
+  
 
