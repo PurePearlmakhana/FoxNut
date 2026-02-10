@@ -72,29 +72,23 @@ body {
     gap: 15px;
   
   
-.intro-section {
-  display: flex;
-  flex-direction: row;        /* force left → right */
+
+    .intro-section {
+  display: flex !important;
+  flex-direction: row !important;
   align-items: center;
-  justify-content: space-between;
   padding: 80px 8%;
-  background: #f7fbf7;
 }
 
-/* LEFT */
+/* text left */
 .intro-content {
-  width: 50%;
+  flex: 1;
 }
 
-/* RIGHT */
+/* image forced right */
 .intro-image {
-  width: 45%;
+  flex: 1;
   display: flex;
   justify-content: flex-end;
 }
 
-.intro-image img {
-  width: 380px;
-  height: auto;
-  border-radius: 50%;
-}
