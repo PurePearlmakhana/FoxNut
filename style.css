@@ -73,35 +73,34 @@ body {
   
   
 
-   .intro-section {
-  position: relative;      /* 👈 keeps it in flow */
+
+  .intro-section {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 60px 8%;
   width: 100%;
-  height: auto;            /* 👈 critical */
-  overflow: hidden;
 }
 
-/* text left */
+/* left text */
 .intro-content {
   flex: 1;
 }
 
-/* image forced right */
+/* right image container */
 .intro-image {
-  position: relative;        /* 👈 removes overlap */
-  width: auto;
-  height: auto;
-  max-width: 20px;
+  flex: 1;
   display: flex;
   justify-content: flex-end;
 }
+
+/* 🔥 IMAGE FIX */
 .intro-image img {
-  width: 50px;      /* 👈 smaller size */
+  width: 450px;        /* ⬅ increase this */
   height: auto;
-  max-width: 100%;
+  max-width: none;    /* ⬅ VERY IMPORTANT */
   display: block;
 }
+
 
 
