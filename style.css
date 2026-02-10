@@ -70,85 +70,38 @@ body {
   .menu {
     flex-direction: column;
     gap: 15px;
+  }
 
-
-.home-section {
-  padding: 80px 8%;
+  .makhana-info {
+  padding: 70px 8%;
+  background: #ffffff;
 }
 
-.home-container {
+.makhana-container {
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 50px;
 }
 
-/* LEFT CONTENT */
-.home-content {
-  flex: 1;
+.makhana-image img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 }
 
-.home-content h1 {
-  font-size: 48px;
+.makhana-text h2 {
   color: #2e7d32;
-  margin-bottom: 20px;
+  font-size: 36px;
+  margin-bottom: 15px;
 }
 
-.home-content p {
+.makhana-text p {
   font-size: 16px;
   line-height: 1.7;
-  margin-bottom: 15px;
   color: #555;
 }
 
-/* FEATURES */
-.features {
-  display: flex;
-  gap: 25px;
-  margin: 30px 0;
-}
 
-.feature {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background: #e8f5e9;
-  padding: 12px 18px;
-  border-radius: 50px;
-}
 
-.feature span {
-  font-size: 22px;
-}
-
-.feature h4 {
-  font-size: 15px;
-  color: #2e7d32;
-}
-
-/* BUTTON */
-.btn {
-  display: inline-block;
-  padding: 12px 28px;
-  background: #2e7d32;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: 500;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: #256628;
-}
-
-/* RIGHT IMAGE */
-.home-image {
-  flex: 1;
-  position: relative;
-}
-
-.home-image img {
-  width: 100%;
-  border-radius: 60% 40% 55% 45%;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
-}
+    
