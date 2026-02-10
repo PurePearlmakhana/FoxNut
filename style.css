@@ -93,16 +93,15 @@ body {
   position: static;        /* 👈 removes overlap */
   width: auto;
   height: auto;
-  max-width: 4200px;
+  max-width: 420px;
   display: flex;
   justify-content: flex-end;
 }
 .intro-image img {
-  display: block;
-  width: 420px;
+  width: 180px;      /* 👈 smaller size */
   height: auto;
   max-width: 100%;
+  display: block;
 }
 
-  
 
