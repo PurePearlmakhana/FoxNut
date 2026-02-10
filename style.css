@@ -73,38 +73,28 @@ body {
   }
 }
   
-
-
-  .intro-section {
+.intro-section {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 60px 8%;
-  width: 100%;
 }
 
-/* left text */
 .intro-content {
   flex: 1;
 }
 
-/* right image container */
 .intro-image {
- .intro-image {
   flex: 1;
-  display: flex;
-  justify-content: flex-start;
+  position: relative;
+  left: -40px;
 }
 
-}
-
-/* 🔥 IMAGE FIX */
 .intro-image img {
-  width: 100px;
+  width: 240px;
   height: auto;
   display: block;
-  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.15));
- transform: translateX(-30px); /* ⬅ shift left */
+}
+
+
 }
 @media (max-width: 768px) {
   .intro-image img {
