@@ -99,8 +99,8 @@ body {
   height: auto;
   max-width: none;
   display: block;
+  transform: translateX(-120px);
 }
-
 
 
 @media (max-width: 768px) {
