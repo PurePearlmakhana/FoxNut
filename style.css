@@ -76,18 +76,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;   /* change this */
-  gap: 40px;                 /* add spacing between text & image */
+  gap: 0px;                 /* add spacing between text & image */
 }
 
 
 /* left text */
 .intro-content {
-  flex: 1;
+  flex: 1.2;
 }
 
 /* right image container */
 .intro-image {
-  flex: 1;
+  flex: 0.8;
   display: flex;
   justify-content: flex-start;  /* move image left */
 }
