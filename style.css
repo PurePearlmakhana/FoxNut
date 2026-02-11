@@ -94,11 +94,13 @@ body {
 
 /* 🔥 IMAGE FIX */
 .intro-image img {
-  width: 450px;        /* ⬅ increase this */
+  width: 450px;
   height: auto;
-  max-width: none;    /* ⬅ VERY IMPORTANT */
+  max-width: none;
   display: block;
+  margin-left: -60px;   /* move more left */
 }
+
 
 
 @media (max-width: 768px) {
