@@ -75,10 +75,10 @@ body {
 .intro-section {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 60px 8%;
-  width: 100%;
+  justify-content: center;   /* change this */
+  gap: 40px;                 /* add spacing between text & image */
 }
+
 
 /* left text */
 .intro-content {
@@ -89,8 +89,9 @@ body {
 .intro-image {
   flex: 1;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;  /* move image left */
 }
+
 
 /* 🔥 IMAGE FIX */
 .intro-image img {
@@ -98,7 +99,6 @@ body {
   height: auto;
   max-width: none;
   display: block;
-  margin-left: -60px;   /* move more left */
 }
 
 
