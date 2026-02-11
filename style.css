@@ -99,17 +99,9 @@ body {
   max-width: none;    /* ⬅ VERY IMPORTANT */
   display: block;
 }
-.image-circle {
-  width: 320px;        /* adjust size */
-  height: 320px;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.image-circle img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.hero-img {
+  width: 350px;   /* adjust size */
+  margin-left: -80px;  /* move left */
 }
 
 
