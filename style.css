@@ -100,8 +100,8 @@ body {
   display: block;
 }
 .hero-img {
-  width: 350px;   /* adjust size */
-  margin-left: -80px;  /* move left */
+  position: relative;
+  left: -80px;   /* move left */
 }
 
 
