@@ -99,10 +99,6 @@ body {
   max-width: none;    /* ⬅ VERY IMPORTANT */
   display: block;
 }
-.hero-img {
-  position: relative;
-  left: -80px;   /* move left */
-}
 
 
 @media (max-width: 768px) {
